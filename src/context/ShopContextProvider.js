@@ -34,7 +34,7 @@ export const ShopContextProvider = (props) => {
         // console.log(item);
         // console.log(Number(item));
         let itemInfo = PRODUCTS.find((product) => product.id === Number(item));
-        totalAmount += cartItems[item] * itemInfo.price;
+        // totalAmount += cartItems[item] * itemInfo.price;
         totalAmount = totalAmount + (cartItems[item] * itemInfo.price);
       }
     }

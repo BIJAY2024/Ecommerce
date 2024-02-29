@@ -8,7 +8,7 @@ export const Navbar = () => {
       <div className="container">
         <div className="flex justify-between align-items-center">
           <div className="shopTitle">
-            <h1>Buy Products</h1>
+            <h1>GadgetBytes Nepal</h1>
           </div>
           <div className="links">
             <Link to="/"> Shop </Link>
